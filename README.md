@@ -14,23 +14,23 @@ Only non-sensitive design mockups belong here. Keep anything confidential out of
 
 One folder per project. Each file is named after the screen and state it shows:
 
-​`
+```
 <project>/<screen>-<state>.png
 <project>/<screen>-<state>-<breakpoint>.png   # when capturing more than one breakpoint
-​`
+```
 
 Examples:
 
-​`
+```
 chat-logbook/chat-list-default.png
 chat-logbook/chat-list-popover-open.png
 chat-logbook/chat-list-default-mobile.png
-​`
+```
 
 ## Embedding
 
 Reference an image by its raw URL:
 
-​`md
+```md
 ![Chat List — default](https://raw.githubusercontent.com/evaaaaawu/mockups/main/chat-logbook/chat-list-default.png)
-​`
+```
